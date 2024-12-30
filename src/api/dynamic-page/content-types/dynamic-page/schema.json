@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dynamic_pages",
+  "info": {
+    "singularName": "dynamic-page",
+    "pluralName": "dynamic-pages",
+    "displayName": "DynamicPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageRoute": {
+      "type": "string"
+    },
+    "HeadingSection": {
+      "type": "string"
+    },
+    "DescriptionSection": {
+      "type": "string"
+    },
+    "businessSection": {
+      "type": "json"
+    }
+  }
+}
